@@ -22,6 +22,38 @@ function App() {
         </div>
         <img src={DataImage.HeroImage} alt="Hero Image" className="w-[500px] md:ml-auto" />
       </div>
+      <div>
+        {/* Tentang */}
+        <div className="tentang mt-32 py-10">
+          <div>
+            <p>
+              Hi, Perkenalkan saya Indra Suliwa wmnwaekjawlekjalwk jlekajwlej alkwjelk ajwl jekjwalkje law
+              alwkej lakwj elkjawlkj elakwjel kjawlkje kawj elkajwkhe alwkelk awke lkawje kljawklej lkjawkle jekjwalkje
+              awjke kjawh jhawkj ehkjawh ejkahwjkehJEKKJ HKWJQ HKJAKJSDHKJA jdh kajshdkja shdkj hasjkdhkjashdkjahskdjh
+              asdjaskldjalskjd lkasjdlkjaslkhflasjflkajsflalskdjlka sjlkflaksdjlkasjdlkjasldjlaksjdlkjaslkdjklashflajsdk
+              alksjflakjfslkajslkfjalskdjlkasj lfhlaksjflkja slkjflasjkfl jaslkfjkl asjlkfhlaksjlfkaslkhflkajsflkjlajlaksjd
+            </p>
+            <div>
+              <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md" />
+              <div>
+                <div>
+                  <h1>
+                    45 <span></span>
+                  </h1>
+                  <p>Project Selesai</p>
+                </div>
+                <div>
+                  <h1>
+                    4 <span></span>
+                  </h1>
+                  <p>Tahun Pengalaman</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Tentang */}
+      </div>
     </>
   );
 }
