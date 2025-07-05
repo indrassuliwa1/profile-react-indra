@@ -10,41 +10,40 @@ function App() {
             <q>Kode Yang Indah, lahir dari ketekunan.😂</q>
           </div>
           <h1 className="text-5xl/tight font-bold mb-6">Hi, Saya Indra Suliwa</h1>
-          <p className="text-base/loose mb-6 opacity-60">Saya bla bla bla ini adalah potopolio kocak bla bla bla balabla
-            balasdas asd asd sadasdasd asd asd asd asd asd sadasdasdasdasdas
-            dasdasdasdasdasdasdasdasdasd as d as das d asd as das
-            dasdasdasdasdasdasdasdasdasd
+          <p className="text-base/loose mb-6 opacity-60">Halo! Saya Indra Suliwa, mahasiswa semester 6 jurusan Teknik Informatika. Saat ini saya sedang mendalami berbagai bidang dalam dunia teknologi, khususnya pengembangan perangkat lunak, keamanan siber, serta Internet of Things (IoT).
+            Saya memiliki ketertarikan besar terhadap pemrograman backend, integrasi API, serta pengembangan aplikasi berbasis web dan mobile. 
+            
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a href="#" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-500">Download CV<i className="ri-download-fill ri-lg"></i></a>
             <a href="#" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-500">Lihat Project Saya<i className="ri-arrow-right-fill ri-lg"></i></a>
           </div>
         </div>
-        <img src={DataImage.HeroImage} alt="Hero Image" className="w-[500px] md:ml-auto" />
+        <img src={DataImage.HeroImage} alt="Hero Image" className="w-[400px] md:ml-auto" />
       </div>
       <div>
         {/* Tentang */}
         <div className="tentang mt-32 py-10">
-          <div>
-            <p>
+          <div className="w-2/3 mx-auto p-7 bg-zinc-800 rounded-lg">
+            <p className="text-base/loose mb-10">
               Hi, Perkenalkan saya Indra Suliwa wmnwaekjawlekjalwk jlekajwlej alkwjelk ajwl jekjwalkje law
               alwkej lakwj elkjawlkj elakwjel kjawlkje kawj elkajwkhe alwkelk awke lkawje kljawklej lkjawkle jekjwalkje
               awjke kjawh jhawkj ehkjawh ejkahwjkehJEKKJ HKWJQ HKJAKJSDHKJA jdh kajshdkja shdkj hasjkdhkjashdkjahskdjh
               asdjaskldjalskjd lkasjdlkjaslkhflasjflkajsflalskdjlka sjlkflaksdjlkasjdlkjasldjlaksjdlkjaslkdjklashflajsdk
               alksjflakjfslkajslkfjalskdjlkasj lfhlaksjflkja slkjflasjkfl jaslkfjkl asjlkfhlaksjlfkaslkhflkajsflkjlajlaksjd
             </p>
-            <div>
+            <div className="flex items-center justify-between">
               <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md" />
-              <div>
+              <div className="flex items-center gap-6">
                 <div>
-                  <h1>
-                    45 <span></span>
+                  <h1 className="text-4xl mb-1">
+                    45 <span className="text-violet-500">+</span>
                   </h1>
                   <p>Project Selesai</p>
                 </div>
                 <div>
-                  <h1>
-                    4 <span></span>
+                  <h1 className="text-4xl mb-1">
+                    4 <span className="text-violet-500">+</span>
                   </h1>
                   <p>Tahun Pengalaman</p>
                 </div>
