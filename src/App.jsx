@@ -26,11 +26,7 @@ function App() {
         <div className="tentang mt-32 py-10">
           <div className="w-2/3 mx-auto p-7 bg-zinc-800 rounded-lg">
             <p className="text-base/loose mb-10">
-              Hi, Perkenalkan saya Indra Suliwa wmnwaekjawlekjalwk jlekajwlej alkwjelk ajwl jekjwalkje law
-              alwkej lakwj elkjawlkj elakwjel kjawlkje kawj elkajwkhe alwkelk awke lkawje kljawklej lkjawkle jekjwalkje
-              awjke kjawh jhawkj ehkjawh ejkahwjkehJEKKJ HKWJQ HKJAKJSDHKJA jdh kajshdkja shdkj hasjkdhkjashdkjahskdjh
-              asdjaskldjalskjd lkasjdlkjaslkhflasjflkajsflalskdjlka sjlkflaksdjlkasjdlkjasldjlaksjdlkjaslkdjklashflajsdk
-              alksjflakjfslkajslkfjalskdjlkasj lfhlaksjflkja slkjflasjkfl jaslkfjkl asjlkfhlaksjlfkaslkhflkajsflkjlajlaksjd
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum impedit, ab consectetur fugiat hic fuga sunt optio necessitatibus! Accusamus vel magni vero nesciunt eos impedit voluptatem tempore obcaecati enim saepe!
             </p>
             <div className="flex items-center justify-between">
               <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md" />
