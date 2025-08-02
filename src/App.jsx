@@ -7,7 +7,7 @@ function App() {
         <div>
           <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
             <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" />
-            <q>Kode Yang Indah, lahir dari ketekunan.😂</q>
+            <q>Ambatakuammmmmmmm.😂</q>
           </div>
           <h1 className="text-5xl/tight font-bold mb-6">Hi, Saya Indra Suliwa</h1>
           <p className="text-base/loose mb-6 opacity-60">Halo! Saya Indra Suliwa, mahasiswa semester 6 jurusan Teknik Informatika. Saat ini saya sedang mendalami berbagai bidang dalam dunia teknologi, khususnya pengembangan perangkat lunak, keamanan siber, serta Internet of Things (IoT).
