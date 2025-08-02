@@ -26,7 +26,10 @@ function App() {
         <div className="tentang mt-32 py-10">
           <div className="w-2/3 mx-auto p-7 bg-zinc-800 rounded-lg">
             <p className="text-base/loose mb-10">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum impedit, ab consectetur fugiat hic fuga sunt optio necessitatibus! Accusamus vel magni vero nesciunt eos impedit voluptatem tempore obcaecati enim saepe!
+              An undergraduate Informatics Engineering student at Universitas Islam Nusantara. A highly honest, detail-oriented, and hardworking
+individual with strong communication skills and the ability to collaborate effectively in a team. Passionate about Software Engineering and
+Cyber Security, and highly motivated to grow and contribute to the technology industry through continuous learning and hands-on
+experience.
             </p>
             <div className="flex items-center justify-between">
               <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md" />
