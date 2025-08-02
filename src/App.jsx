@@ -7,7 +7,7 @@ function App() {
         <div>
           <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
             <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" />
-            <q>Kode Yang Indah, lahir dari ketekunan.😂</q>
+            <q>Ambatakuammmmmmmm.😂</q>
           </div>
           <h1 className="text-5xl/tight font-bold mb-6">Hi, Saya Indra Suliwa</h1>
           <p className="text-base/loose mb-6 opacity-60">Halo! Saya Indra Suliwa, mahasiswa semester 6 jurusan Teknik Informatika. Saat ini saya sedang mendalami berbagai bidang dalam dunia teknologi, khususnya pengembangan perangkat lunak, keamanan siber, serta Internet of Things (IoT).
@@ -26,11 +26,10 @@ function App() {
         <div className="tentang mt-32 py-10">
           <div className="w-2/3 mx-auto p-7 bg-zinc-800 rounded-lg">
             <p className="text-base/loose mb-10">
-              Hi, Perkenalkan saya Indra Suliwa wmnwaekjawlekjalwk jlekajwlej alkwjelk ajwl jekjwalkje law
-              alwkej lakwj elkjawlkj elakwjel kjawlkje kawj elkajwkhe alwkelk awke lkawje kljawklej lkjawkle jekjwalkje
-              awjke kjawh jhawkj ehkjawh ejkahwjkehJEKKJ HKWJQ HKJAKJSDHKJA jdh kajshdkja shdkj hasjkdhkjashdkjahskdjh
-              asdjaskldjalskjd lkasjdlkjaslkhflasjflkajsflalskdjlka sjlkflaksdjlkasjdlkjasldjlaksjdlkjaslkdjklashflajsdk
-              alksjflakjfslkajslkfjalskdjlkasj lfhlaksjflkja slkjflasjkfl jaslkfjkl asjlkfhlaksjlfkaslkhflkajsflkjlajlaksjd
+              An undergraduate Informatics Engineering student at Universitas Islam Nusantara. A highly honest, detail-oriented, and hardworking
+individual with strong communication skills and the ability to collaborate effectively in a team. Passionate about Software Engineering and
+Cyber Security, and highly motivated to grow and contribute to the technology industry through continuous learning and hands-on
+experience.
             </p>
             <div className="flex items-center justify-between">
               <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md" />
