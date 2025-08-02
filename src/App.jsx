@@ -9,9 +9,9 @@ function App() {
             <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" />
             <q>Ambatakuammmmmmmm.😂</q>
           </div>
-          <h1 className="text-5xl/tight font-bold mb-6">Hi, Saya Indra Suliwa</h1>
-          <p className="text-base/loose mb-6 opacity-60">Halo! Saya Indra Suliwa, mahasiswa semester 6 jurusan Teknik Informatika. Saat ini saya sedang mendalami berbagai bidang dalam dunia teknologi, khususnya pengembangan perangkat lunak, keamanan siber, serta Internet of Things (IoT).
-            Saya memiliki ketertarikan besar terhadap pemrograman backend, integrasi API, serta pengembangan aplikasi berbasis web dan mobile. 
+          <h1 className="text-5xl/tight font-bold mb-6">Hi My Name is Indra Suliwa</h1>
+          <p className="text-base/loose mb-6 opacity-60">Hello! I am Indra Suliwa, a 6th-semester student majoring in Informatics Engineering. I am currently exploring various fields in the world of technology, particularly software development, cybersecurity, and the Internet of Things (IoT).
+I have a strong interest in backend programming, API integration, as well as web and mobile application development.
             
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
