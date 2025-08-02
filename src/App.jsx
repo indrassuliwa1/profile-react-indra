@@ -9,7 +9,7 @@ function App() {
             <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" />
             <q>Ambatakuammmmmmmm.😂</q>
           </div>
-          <h1 className="text-5xl/tight font-bold mb-6">Hi My Name is Indra Suliwa</h1>
+          <h1 className="text-5xl/tight font-bold mb-6">Hi IM Indra Suliwa</h1>
           <p className="text-base/loose mb-6 opacity-60">Hello! I am Indra Suliwa, a 6th-semester student majoring in Informatics Engineering. I am currently exploring various fields in the world of technology, particularly software development, cybersecurity, and the Internet of Things (IoT).
 I have a strong interest in backend programming, API integration, as well as web and mobile application development.
             
@@ -24,15 +24,15 @@ I have a strong interest in backend programming, API integration, as well as web
       <div>
         {/* Tentang */}
         <div className="tentang mt-32 py-10">
-          <div className="w-2/3 mx-auto p-7 bg-zinc-800 rounded-lg">
-            <p className="text-base/loose mb-10">
+          <div className=" xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg">
+            <p className="text-base/loose mb-11">
               An undergraduate Informatics Engineering student at Universitas Islam Nusantara. A highly honest, detail-oriented, and hardworking
 individual with strong communication skills and the ability to collaborate effectively in a team. Passionate about Software Engineering and
 Cyber Security, and highly motivated to grow and contribute to the technology industry through continuous learning and hands-on
 experience.
             </p>
             <div className="flex items-center justify-between">
-              <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md" />
+              <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md sm:block hidden" />
               <div className="flex items-center gap-6">
                 <div>
                   <h1 className="text-4xl mb-1">
