@@ -1,5 +1,5 @@
 import DataImage from "./data";
-import { listTools } from "./data";
+import { listTools, listProyek } from "./data";
 
 function App() {
   return (
@@ -38,15 +38,15 @@ function App() {
               <div className="flex items-center gap-6">
                 <div>
                   <h1 className="text-4xl mb-1">
-                    45 <span className="text-violet-500">+</span>
+                    17 <span className="text-violet-500">+</span>
                   </h1>
                   <p>Project Selesai</p>
                 </div>
                 <div>
                   <h1 className="text-4xl mb-1">
-                    4 <span className="text-violet-500">+</span>
+                    6 <span className="text-violet-500">+</span>
                   </h1>
-                  <p>Tahun Pengalaman</p>
+                  <p> Bulan Pengalaman</p>
                 </div>
               </div>
             </div>
@@ -54,12 +54,12 @@ function App() {
         </div>
         <div className="tools mt-32">
           <h1 className="text-4xl/snug font-bold mb-4">Tools yang saya pakai</h1>
-          <p className="w-2/5 text-base/loose opacity-50">Berikut tools yang saya pakai untuk pembuatan websute ataupun design</p>
+          <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50">Berikut tools yang saya pakai untuk pembuatan websute ataupun design</p>
           <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
-            
+
             {listTools.map((tool) => {
               return (
-                <div className=" flex items-center gap-2 p-3 border border-zinc-600 rounded-md  hover:bg-zinc-800 group"key={tool.id}>
+                <div className=" flex items-center gap-2 p-3 border border-zinc-600 rounded-md  hover:bg-zinc-800 group" key={tool.id}>
                   <img src={tool.gambar} alt="Tools Image" className="w-14 bg-zinc-800 p-1 group-hover:bg-zinc-900" />
                   <div>
                     <h4 className="font-bold">{tool.nama}</h4>
@@ -70,10 +70,44 @@ function App() {
             })}
 
 
+          </div>
         </div>
-      </div>
-      {/* Tentang */}
-    </div >
+        {/* Tentang */}
+
+        {/* project */}
+        <div className="proyek mt-32 py-10">
+          <h1 className="text-center text-4xl font-bold mb-2">
+            Project
+          </h1>
+          <p className="text-base/loose text-center opacity-50">
+            Berikut beberapa project yang saya buat
+          </p>
+          <div className="proyek-box grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {listProyek.map((proyek) => {
+              return (
+                <div
+                  className="proyek-card flex items-center gap-4 p-5 border border-zinc-600 rounded-xl hover:bg-zinc-800 transition"
+                  key={proyek.id}
+                >
+                  <img
+                    src={proyek.gambar}
+                    alt="Proyek Image"
+                    className="w-20 h-20 bg-zinc-800 p-2 rounded-lg object-cover"
+                  />
+                  <div>
+                    <h4 className="font-bold text-lg">{proyek.nama}</h4>
+                    <p className="opacity-70 text-sm">{proyek.desk}</p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+        </div>
+        {/* project */}
+
+
+      </div >
     </>
   );
 }
